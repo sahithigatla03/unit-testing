@@ -23,6 +23,6 @@ describe("CourseCard organism", () => {
     expect(screen.getByText(/react basics/i)).toBeInTheDocument();
     expect(screen.getByText(/beginner/i)).toBeInTheDocument();
     expect(screen.getByText(/4 weeks/i)).toBeInTheDocument();
-    expect(screen.getByRole("link", { name: /view details/i })).toBeInTheDocument();
+    expect(screen.getByRole("link", { name: /view course details/i })).toBeInTheDocument();
   });
 });
