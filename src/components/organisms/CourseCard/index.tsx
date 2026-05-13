@@ -42,7 +42,7 @@ export default function CourseCard({ course }: Props) {
           component={Link}
           to={`/courses/${course.id}`}
         >
-          View Details
+          View course Details
         </Button>
       </CardActions>
     </Card>
